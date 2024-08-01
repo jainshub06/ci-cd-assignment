@@ -1,10 +1,6 @@
 # Use python:3-alpine as base image
 FROM python:3-alpine
-RUN apt-get clean
-RUN apt-get -y update
-RUN apt-get -y upgrade
-RUN apt-get install -y git
-ENTRYPOINT /bin/bash
+
 # Set the working directory to /app
 WORKDIR /app
 
