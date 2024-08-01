@@ -1,6 +1,6 @@
 # Use python:3-alpine as base image
 FROM python:3-alpine
-
+ENTRYPOINT ["/docker-entrypoint.sh"]
 # Set the working directory to /app
 WORKDIR /app
 
