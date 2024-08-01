@@ -1,6 +1,4 @@
-
-import time
- 
+import time 
 try:
     num = 11
     while True: 
@@ -11,5 +9,4 @@ try:
         time.sleep(1)  # Using to slow the while loop by one second 🙂
 except KeyboardInterrupt:
     pass
- 
 print("Continuing with the program")
